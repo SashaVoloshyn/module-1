@@ -69,7 +69,7 @@ function processInp() {
                     result = getUnique(input);
                     break;
                 default:
-                    console.log('Invalid operation');
+                    console.log('Invalid operation.');
                     processInp();
                     return;
             }
